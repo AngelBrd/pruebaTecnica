@@ -80,10 +80,8 @@ export const Order = ({ setPageTitle }) => {
     if (dropoff) {
       const addressParts = dropoff.address.split(',');
       let city = '';
-      let location = '';
       if (addressParts.length > 1) {
         city = addressParts[addressParts.length - 2].trim(); // La ciudad es el penúltimo elemento después de dividir por comas
-        location = addressParts.slice(0, addressParts.length - 2).join(',').trim(); // La ubicación específica es todo antes de la ciudad
       }
       return {
         title: city, // Cambiamos para que el título sea la ciudad
