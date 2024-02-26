@@ -10,7 +10,6 @@ import MarkerIcon from '../../assets/marker.svg';
 import EyeIcon from '../../assets/eye.svg';
 import './order.css';
 
-
 export const Order = ({ setPageTitle }) => {
   const [orders, setOrders] = useState([]);
   const [isPickupTime, setIsPickupTime] = useState(false);
