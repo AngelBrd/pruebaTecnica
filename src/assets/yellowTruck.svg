@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="25px" viewBox="0 0 32 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E749D8E8-5389-4589-B847-3A82334586F1</title>
+    <defs>
+        <filter x="-19.2%" y="-28.0%" width="138.3%" height="155.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.825775589   0 0 0 0 0.825775589   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Contenedores" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cargo-Details-Upcoming-" transform="translate(-79.000000, -242.000000)">
+            <g id="Active-button" transform="translate(75.000000, 235.000000)">
+                <g id="truck" filter="url(#filter-1)" transform="translate(8.000000, 11.000000)">
+                    <path d="M5.85365854,14.961039 C5.85365854,14.1346909 5.19853659,13.4649351 4.3902439,13.4649351 C3.58195122,13.4649351 2.92682927,14.1346909 2.92682927,14.961039 C2.92682927,15.787387 3.58195122,16.4571429 4.3902439,16.4571429 C5.19853659,16.4571429 5.85365854,15.787387 5.85365854,14.961039 Z" id="path2367" stroke="#0F1314" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(4.390244, 14.961039) scale(-1, 1) rotate(-180.000000) translate(-4.390244, -14.961039) "></path>
+                    <path d="M8.7804878,14.961039 C8.7804878,14.1346909 8.12536585,13.4649351 7.31707317,13.4649351 C6.50878049,13.4649351 5.85365854,14.1346909 5.85365854,14.961039 C5.85365854,15.787387 6.50878049,16.4571429 7.31707317,16.4571429 C8.12536585,16.4571429 8.7804878,15.787387 8.7804878,14.961039 Z" id="path2371" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(7.317073, 14.961039) scale(-1, 1) rotate(-180.000000) translate(-7.317073, -14.961039) "></path>
+                    <path d="M19.3170732,14.961039 C19.3170732,14.1346909 18.6619512,13.4649351 17.8536585,13.4649351 C17.0453659,13.4649351 16.3902439,14.1346909 16.3902439,14.961039 C16.3902439,15.787387 17.0453659,16.4571429 17.8536585,16.4571429 C18.6619512,16.4571429 19.3170732,15.787387 19.3170732,14.961039 Z" id="path2375" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.853659, 14.961039) scale(-1, 1) rotate(-180.000000) translate(-17.853659, -14.961039) "></path>
+                    <path d="M11.8536585,0 L11.8536585,13.9636364 C11.8536585,14.5147013 12.2902439,14.961039 12.8292683,14.961039 L14.9268293,14.961039 C17.3517073,14.961039 19.3170732,12.9517714 19.3170732,10.4727273 L19.3170732,5.98441558 L22.5365854,5.98441558 C23.344878,5.98441558 24,5.31465974 24,4.48831169 L24,0.997402597 C24,0.446337662 23.5634146,0 23.0243902,0 L19.3170732,0" id="path2379" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.926829, 7.480519) scale(-1, 1) rotate(-180.000000) translate(-17.926829, -7.480519) "></path>
+                    <line x1="2.92682927" y1="15.1054758" x2="0" y2="15.1054758" id="path2383" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(1.463415, 15.105476) scale(-1, 1) rotate(-180.000000) translate(-1.463415, -15.105476) "></line>
+                    <polyline id="path2387" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.121951, 6.732468) scale(-1, 1) rotate(-180.000000) translate(-17.121951, -6.732468) " points="19.3170732 4.48831169 14.9268293 4.48831169 14.9268293 8.97662338 19.3170732 8.97662338"></polyline>
+                    <line x1="8.7804878" y1="4.63274849" x2="11.8536585" y2="4.63274849" id="path2391" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(10.317073, 4.632748) scale(-1, 1) rotate(-180.000000) translate(-10.317073, -4.632748) "></line>
+                    <line x1="11.8536585" y1="4.63274849" x2="14.9268293" y2="4.63274849" id="path2395" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(13.390244, 4.632748) scale(-1, 1) rotate(-180.000000) translate(-13.390244, -4.632748) "></line>
+                    <line x1="22.5365854" y1="12.113268" x2="24" y2="12.113268" id="path2399" stroke="#0F1314" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(23.268293, 12.113268) scale(-1, 1) rotate(-180.000000) translate(-23.268293, -12.113268) "></line>
+                    <path d="M9.26829268,9.47532468 C9.26829268,9.19994182 9.04990244,8.97662338 8.7804878,8.97662338 C8.51107317,8.97662338 8.29268293,9.19994182 8.29268293,9.47532468 C8.29268293,9.75070753 8.51107317,9.97402597 8.7804878,9.97402597 C9.04990244,9.97402597 9.26829268,9.75070753 9.26829268,9.47532468" id="path2403" fill="#080C0F" fill-rule="nonzero" transform="translate(8.780488, 9.475325) scale(-1, 1) rotate(-180.000000) translate(-8.780488, -9.475325) "></path>
+                    <polyline id="path2407" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(8.048780, 3.615584) scale(-1, 1) rotate(-180.000000) translate(-8.048780, -3.615584) " points="7.31707317 7.23116883 8.7804878 5.73506494 8.7804878 5.24708482e-14"></polyline>
+                    <polyline id="path2411" stroke="#0E1113" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.585366, 13.340260) scale(-1, 1) rotate(-180.000000) translate(-12.585366, -13.340260) " points="8.7804878 14.961039 8.7804878 11.7194805 16.3902439 11.7194805"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icono-flecha {
+    width: 10px;
+    height: 18px;
+}
+
+.header-title {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.icono-notificacion {
+    width: 22px;
+    height: 27.5px;
+}

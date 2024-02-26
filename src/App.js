@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HeaderUpcoming } from './components/Header/HeaderUpcoming';
+import { Order } from './components/Order/Order';
+import Cargo from './components/CargoDetails/Cargo';
 
 function App() {
+  const [pageTitle, setPageTitle] = useState("Upcoming");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Router>
+        <HeaderUpcoming title={pageTitle} />
+        <Routes>
+          <Route path='/order' element={<Order setPageTitle={setPageTitle} />} />
+          <Route path='/cargo' element={<Cargo setPageTitle={setPageTitle} />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

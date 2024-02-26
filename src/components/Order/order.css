@@ -1,0 +1,188 @@
+h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+.tracking-principal-div {
+    border: solid 1px #252525;
+    border-radius: 35px;
+    margin-bottom: 40px;
+}
+
+.tracking-title-div {
+    border-bottom: 1px solid #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 28.34px 15px 17px;
+}
+
+.tracking-title-div p {
+    font-size: 12px;
+}
+
+.tracking-subtitle-div {
+    display: flex;
+    align-items: center;
+}
+
+.freight-icono {
+    width: 27px;
+    height: 15px;
+    margin-right: 12px;
+}
+
+h4 {
+   font-weight: 600;
+}
+
+.tracking-state-div {
+    display: flex;
+    align-items: center;
+}
+
+.circulo {
+    background: #0394FF;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-right: 9px;
+}
+
+.grey-dot-bg {
+    background: #989898;
+}
+
+.blue-dot-bg {
+    background: #0394FF;
+}
+
+.tracking-flex-div {
+    display: flex;
+    padding: 36px 19px 39px 20px;
+}
+
+.tracking-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+}
+
+.icon-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-right: 14px;
+}
+
+.linea-vertical {
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(to top, #252525, #888);
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-div .cargo-pickup-div {
+    border-bottom: 1px solid #888;
+}
+
+.info-div h5 {
+    font-size: 10px;
+    font-weight: 100;
+    opacity: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info-div h4, p {
+    font-size: 14px;
+}
+
+.info-div p {
+    font-weight: 100;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 170px; 
+}
+
+.time-date-div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.time-date-div h5 {
+    font-size: 12px;
+    font-weight: 100;
+    opacity: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.time-date-div h4 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pickup-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pickup-div .resume-button {
+    background: #FFFF00;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 12px 21px 13px 19px;
+    border-radius: 35px;
+}
+
+.pickup-div .pickup-button {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.pickup-div span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pickup-div img {
+    margin-left: 14px;
+}
+
+.pickup-time-div {
+    background: linear-gradient(to right, #080c0f, #080c0f, #252525 98%);
+    border-top: 1px solid #252525;
+    border-right: 1px solid #252525;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    padding: 15px 23px 16px 24px;
+}
+
+.pickup-time-div p {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.pickup-time-div strong {
+    color: #FFFF00;
+}
+
