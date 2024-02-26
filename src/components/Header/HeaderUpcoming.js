@@ -9,7 +9,7 @@ export const HeaderUpcoming = ({title}) => {
     <header>
       <a href='/order'><img src={ArrowLeftIcon} className='icono-flecha' alt='Icono de regresar'/></a>
       <h3 className='header-title'>{title}</h3>
-      <a><img src={BellIcon} className='icono-notificacion' alt='Icono de notificacion'/></a>
+      <a href='/'><img src={BellIcon} className='icono-notificacion' alt='Icono de notificacion'/></a>
     </header>
   );
 };
