@@ -173,7 +173,7 @@ export const Order = ({ setPageTitle }) => {
 
             <div className='pickup-div'>
               <div className='pickup-time-div'>
-              <a href='' className='pickup-button' style={{ backgroundColor: isPickupTime ? '#FFFF00' : '#080c0f' }} disabled={!isPickupTime}>
+              <a href='/' className='pickup-button' style={{ backgroundColor: isPickupTime ? '#FFFF00' : '#080c0f' }} disabled={!isPickupTime}>
               <p>
                 Start pickup in <strong>{`${getTimeDifference(order.destinations[0].start_date).hours}:${getTimeDifference(order.destinations[0].start_date).minutes}:${getTimeDifference(order.destinations[0].start_date).seconds}`}</strong>
               </p>
